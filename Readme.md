@@ -1,4 +1,4 @@
-# ❤️ Heart Attack Risk Prediction Using Retinal Eye Images
+# ❤️ Cardioret: Cardiovascular Risk Prediction Using Retinal Eye Images
 
 <div align="center">
 
