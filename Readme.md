@@ -503,11 +503,7 @@ You are free to use, modify, and improve this project with proper attribution.
 
 💻 Aspiring DevOps Engineer | Java Full Stack Developer | AI & ML Enthusiast
 
-📧 Email: your-email@example.com
 
-🔗 GitHub: https://github.com/Megha11092018
-
-🔗 LinkedIn: https://www.linkedin.com/
 
 ---
 
