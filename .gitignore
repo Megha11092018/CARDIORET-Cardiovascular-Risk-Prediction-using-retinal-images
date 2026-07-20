@@ -1,24 +1,36 @@
+# ===========================
 # Environment
+# ===========================
 .env
 
-# Virtual environments
+# ===========================
+# Virtual Environments
+# ===========================
 venv/
 .venv/
 env/
 
-# Python cache
+# ===========================
+# Python Cache
+# ===========================
 __pycache__/
-*.pyc
+*.py[cod]
 .pytest_cache/
 
-# TensorFlow model files
+# ===========================
+# TensorFlow Model Files
+# ===========================
 *.pb
 *.pbtxt
 
-# Ignore data folder (but keep dataset folder)
+# ===========================
+# Ignore Data Folder
+# ===========================
 data/
 
-# Ignore images everywhere
+# ===========================
+# Ignore Images Everywhere
+# ===========================
 *.jpg
 *.jpeg
 *.png
@@ -29,7 +41,9 @@ data/
 *.webp
 *.svg
 
-# Allow images inside dataset folder
+# ===========================
+# Allow Dataset Images
+# ===========================
 !dataset/
 !dataset/**
 !dataset/**/*.jpg
@@ -42,15 +56,38 @@ data/
 !dataset/**/*.webp
 !dataset/**/*.svg
 
-# Ignore copied files
+# ===========================
+# Allow Output Screenshots
+# ===========================
+!output_images/
+!output_images/**
+!output_images/**/*.jpg
+!output_images/**/*.jpeg
+!output_images/**/*.png
+!output_images/**/*.gif
+!output_images/**/*.bmp
+!output_images/**/*.tif
+!output_images/**/*.tiff
+!output_images/**/*.webp
+!output_images/**/*.svg
+
+# ===========================
+# Ignore Copied Files
+# ===========================
 *- Copy.*
 
-# IDE files
+# ===========================
+# IDE Files
+# ===========================
 .vscode/
 .idea/
 
+# ===========================
 # Logs
+# ===========================
 *.log
 
-# Git attributes
+# ===========================
+# Git Attributes
+# ===========================
 **/.gitattributes
