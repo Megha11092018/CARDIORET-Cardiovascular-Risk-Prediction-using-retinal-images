@@ -246,7 +246,7 @@ Heart-Attack-Risk-Prediction/
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Heart-Attack-Risk-Prediction.git
+git clone https://github.com/Megha11092018/CARDIORET-Cardiovascular-Risk-Prediction-using-retinal-images.git
 cd Heart-Attack-Risk-Prediction
 ```
 
