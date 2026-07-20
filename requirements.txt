@@ -1,0 +1,13 @@
+numpy
+tensorflow
+flask
+Werkzeug
+gunicorn
+python-dateutil
+scipy
+opencv-python
+imageio
+scikit-learn
+matplotlib
+python-dotenv
+Pillow

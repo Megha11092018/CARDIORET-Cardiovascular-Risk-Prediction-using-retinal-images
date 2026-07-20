@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Heart Attack Prediction using Retinal Images</title>
+
+  <!-- Favicons -->
+  <link href="../static/img/favicon.png" rel="icon">
+  <link href="../static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,600,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../static/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../static/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+         <h1 class="text-light"><a href="{{ url_for('home') }}"><span>Heart Attack Prediction</span></a></h1>
+
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="{{ url_for('home') }}">Home</a></li>
+          <li><a class="nav-link scrollto" href="{{ url_for('login') }}">Login</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="fade-up">
+      <h1>Heart Attack Prediction using Retinal Images</h1>
+    </div>
+  </section><!-- End Hero -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row no-gutters">
+        <div class="content col-xl-5 d-flex align-items-stretch">
+          <div class="content">
+            <h3>About the Project</h3>
+            <p>
+              This project proposes an intelligent system to detect and predict the risk of Heart Attack 
+              using Retinal Images through advanced Deep Learning techniques.
+            </p>
+            <!-- 🔗 Login Button -->
+            <a href="{{ url_for('login') }}" class="btn btn-primary mt-3">Go to Login</a>
+          </div>
+        </div>
+
+        <div class="col-xl-7 d-flex align-items-stretch">
+          <div class="icon-boxes d-flex flex-column justify-content-center">
+            <div class="row">
+              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-brain"></i>
+                <h4>Deep Learning</h4>
+                <p>Uses advanced neural network models for medical image analysis.</p>
+              </div>
+              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                <i class="bx bx-check-shield"></i>
+                <h4>High Accuracy</h4>
+                <p>Achieves reliable predictions with clinical datasets.</p>
+              </div>
+              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                <i class="bx bx-images"></i>
+                <h4>Large Dataset</h4>
+                <p>Trained on thousands of retinal images for better generalization.</p>
+              </div>
+              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                <i class="bx bx-desktop"></i>
+                <h4>Web Application</h4>
+                <p>Interactive and user-friendly Flask based web application.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+
+  <!-- Vendor JS Files -->
+  <script src="../static/vendor/aos/aos.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../static/vendor/php-email-form/validate.js"></script>
+  <script src="../static/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../static/js/main.js"></script>
+
+</body>
+</html>

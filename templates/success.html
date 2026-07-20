@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h2>Heart Attack Prediction using Retinal Images</h2>
+    </div>
+</div>
+<div class="container">
+    <table>
+        <tr>
+            <td>
+                <img class="plot" src="{{ url_for('static', filename='images/orig_image.jpg') }}" alt="">
+            </td>
+            <td colspan="2">
+                <br/>
+            </td>
+            <td>
+                <img class="plot" src="{{ url_for('static', filename='images/em_image.jpg') }}" alt="">
+            </td>
+        </tr>
+    </table>
+
+    {% if clustering_results %}
+    <div class="clustering-info" style="margin-top: 20px; padding: 15px; border: 2px solid #007bff; background-color: #e7f3ff; color: #000;">
+        <h4 style="color: #007bff;">Clustering Results:</h4>
+        <ul>
+            <li><strong>Number of Clusters:</strong> {{ clustering_results.num_clusters }}</li>
+            <li><strong>Iterations Performed:</strong> {{ clustering_results.iterations }}</li>
+            <li><strong>Final Log-Likelihood:</strong> {{ clustering_results.final_likelihood }}</li>
+            <li><strong>Converged:</strong> {{ 'Yes' if clustering_results.converged else 'No' }}</li>
+        </ul>
+        {% if clustering_results.error %}
+        <p style="color: red;"><strong>Error:</strong> {{ clustering_results.error }}</p>
+        {% endif %}
+    </div>
+    {% endif %}
+
+    </div>
+
+<!-- ======= Cta Section ======= -->
+                  <center>   <a class="cta-btn" href="index">Next</a>
+        </div>
+
+      </div>
+      
+    </section><!-- End Cta Section -->
+
+
+			    </div>
+
+{% endblock content %}
