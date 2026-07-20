@@ -514,11 +514,7 @@ Special thanks to:
 - KLS Vishwanathrao Deshpande Institute of Technology
 - Project Guide & Faculty Members
 - Open Source Community
-- TensorFlow
-- OpenCV
-- Flask
-- Scikit-Learn
-- GitHub
+
 
 ---
 
