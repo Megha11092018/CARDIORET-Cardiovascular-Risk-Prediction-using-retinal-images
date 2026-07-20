@@ -391,7 +391,7 @@ Based on the predicted heart attack risk level, the system provides customized h
 ## 🏠 Home Page
 
 <p align="center">
-<img src="images/home.png" width="800">
+  <img src="./output_images/home page.png" width="900">
 </p>
 
 ---
@@ -399,7 +399,7 @@ Based on the predicted heart attack risk level, the system provides customized h
 ## 🔐 Login Page
 
 <p align="center">
-<img src="images/login.png" width="800">
+  <img src="./output_images/login page.png" width="900">
 </p>
 
 ---
@@ -407,7 +407,7 @@ Based on the predicted heart attack risk level, the system provides customized h
 ## 📤 Image Upload
 
 <p align="center">
-<img src="images/upload.png" width="800">
+  <img src="./output_images/image upload.png" width="900">
 </p>
 
 ---
@@ -415,7 +415,7 @@ Based on the predicted heart attack risk level, the system provides customized h
 ## 🎨 Fuzzy C-Means Clustering
 
 <p align="center">
-<img src="images/cluster.png" width="800">
+  <img src="./output_images/cluster.png" width="900">
 </p>
 
 ---
@@ -423,9 +423,16 @@ Based on the predicted heart attack risk level, the system provides customized h
 ## ❤️ Prediction Result
 
 <p align="center">
-<img src="images/result.png" width="800">
+  <img src="./output_images/result with health tip.png" width="900">
 </p>
 
+---
+
+## 💚 Health Tips Based on Risk Level
+
+<p align="center">
+  <img src="./output_images/result with health tip1.png" width="900">
+</p>
 ---
 
 # 🌍 Applications
