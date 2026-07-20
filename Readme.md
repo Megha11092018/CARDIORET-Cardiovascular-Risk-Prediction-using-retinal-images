@@ -6,7 +6,7 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Image%20Processing-green?logo=opencv)
 ![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black?logo=flask)
-![License](https://img.shields.io/badge/License-MIT-blue)
+
 
 ### 🩺 AI-Powered Non-Invasive Heart Attack Risk Prediction Using Retinal Fundus Images
 
@@ -69,14 +69,16 @@ Develop an intelligent healthcare system capable of predicting heart attack risk
 # ✨ Key Features
 
 - 👁️ Retinal Image Analysis
-- 🧠 Deep Learning Prediction using RNN
-- 🎨 Fuzzy C-Means Image Clustering
-- 📊 Risk Classification
-- 📈 Feature Visualization
-- 🔐 User Authentication
-- 🌐 Web-based Interface
-- ⚡ Fast Prediction
-- 🏥 Healthcare Decision Support
+- 🧠 Deep Learning-based Heart Attack Risk Prediction (RNN)
+- 🎨 Fuzzy C-Means Clustering for Feature Extraction
+- 📊 Risk Classification (Low, Medium, High)
+- 💡 Personalized Health Tips Based on Predicted Risk Level
+- 🥗 Lifestyle and Dietary Recommendations
+- 📈 Feature Visualization and Analysis
+- 🔐 Secure User Authentication
+- 🌐 Interactive Web-based Interface
+- ⚡ Fast and Accurate Prediction
+- 🏥 AI-assisted Clinical Decision Support
 
 ---
 
@@ -304,35 +306,13 @@ http://127.0.0.1:5000
 # 🚀 How to Use
 
 1. Launch the web application.
-2. Login as an authorized user.
+2. Login using your credentials.
 3. Upload a retinal fundus image.
-4. Image preprocessing begins automatically.
-5. Fuzzy C-Means clustering extracts retinal vessel features.
-6. The trained RNN model predicts cardiovascular risk.
-7. View prediction results and clustered retinal image.
-8. Analyze patient risk level.
-
----
-
-# 🐳 Docker Deployment
-
-## Build Docker Image
-
-```bash
-docker build -t heart-attack-prediction .
-```
-
-## Run Docker Container
-
-```bash
-docker run -d -p 5000:5000 heart-attack-prediction
-```
-
-## Docker Compose
-
-```bash
-docker compose up --build
-```
+4. The system preprocesses the image using Fuzzy C-Means clustering.
+5. The trained RNN model predicts the heart attack risk level.
+6. View the prediction result along with retinal feature analysis.
+7. Receive personalized health tips, lifestyle recommendations, and preventive measures based on the predicted risk level.
+8. Use the recommendations to support early awareness and healthier lifestyle choices.
 
 ---
 
@@ -365,21 +345,46 @@ Result Visualization
 
 ---
 
-# 📈 Results
+# 📊 Results
 
-The developed model successfully predicts the risk of heart attack from retinal images by analyzing retinal blood vessel characteristics.
+The system predicts the heart attack risk level by analyzing retinal fundus images and provides meaningful health insights.
 
 ### Output Includes
 
 - ✅ Clustered Retinal Image
-- ✅ Predicted Risk Level
+- ✅ Predicted Risk Level (Low, Medium, High)
 - ✅ Age Category
 - ✅ Blood Pressure Information
 - ✅ BMI Category
 - ✅ Hemoglobin Range
+- ✅ Personalized Health Tips
+- ✅ Lifestyle Recommendations
+- ✅ Preventive Healthcare Suggestions
 - ✅ Graphical Visualization
-
 ---
+# 💚 Personalized Health Recommendations
+
+Based on the predicted heart attack risk level, the system provides customized health guidance to help users adopt healthier habits and reduce cardiovascular risk.
+
+### 🟢 Low Risk
+- Maintain a balanced diet.
+- Exercise regularly.
+- Stay hydrated.
+- Schedule routine health check-ups.
+
+### 🟡 Medium Risk
+- Reduce salt and sugar intake.
+- Increase physical activity.
+- Monitor blood pressure regularly.
+- Avoid smoking and excessive alcohol consumption.
+- Consult a healthcare professional for regular evaluations.
+
+### 🔴 High Risk
+- Seek immediate medical consultation.
+- Follow a heart-healthy diet.
+- Take prescribed medications as directed.
+- Monitor blood pressure and blood sugar frequently.
+- Avoid stress and maintain regular follow-up with a cardiologist.
 
 # 📷 Screenshots
 
