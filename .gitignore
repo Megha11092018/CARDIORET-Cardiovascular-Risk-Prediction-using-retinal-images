@@ -15,11 +15,10 @@ __pycache__/
 *.pb
 *.pbtxt
 
-# Datasets
+# Ignore data folder (but keep dataset folder)
 data/
-dataset/
 
-# All images
+# Ignore images everywhere
 *.jpg
 *.jpeg
 *.png
@@ -29,6 +28,19 @@ dataset/
 *.tiff
 *.webp
 *.svg
+
+# Allow images inside dataset folder
+!dataset/
+!dataset/**
+!dataset/**/*.jpg
+!dataset/**/*.jpeg
+!dataset/**/*.png
+!dataset/**/*.gif
+!dataset/**/*.bmp
+!dataset/**/*.tif
+!dataset/**/*.tiff
+!dataset/**/*.webp
+!dataset/**/*.svg
 
 # Ignore copied files
 *- Copy.*
